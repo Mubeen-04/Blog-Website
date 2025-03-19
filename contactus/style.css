@@ -1,0 +1,160 @@
+/* Reset some default styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    margin: 0; 
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.334);
+    border-radius: 1rem;
+    color: white;
+    /* height: 550px; */
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+}
+
+
+/* Login form styles */
+.card {
+    background-color: hsla(0, 0%, 100%, 0.334);
+    border-radius: 1rem;
+    width: 750px;
+    height: 430px;
+    color: white;
+}
+
+.card header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 15px;
+    color: black;
+}
+
+.card .form-item {
+    padding: 1rem;
+}
+
+.form-item {
+    background-color: hsla(0, 0%, 100%, 0.577);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    color: black;
+    padding-right: 2.5rem;
+}
+
+.login-button {
+    display: flex;
+    justify-content: right;
+    padding: 1rem 2rem;
+}
+
+
+
+.form-item input[type="email"],
+.form-item input[type="text"]
+{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    padding-left: 2.5rem;
+    font-size: large;
+    font-family: 'Work Sans', sans-serif; /* Add the font-family here */
+}
+
+.form-item textarea
+{
+    border: none;
+    outline: none;
+    width: 644px;
+    height: 48px;
+    background: transparent;
+    padding-left: 2.5rem;
+    font-size: large;
+    font-family: 'Work Sans', sans-serif; /* Add the font-family here */
+}
+
+input[type=submit] {
+    background-color: #332d9f;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: #0c0079;
+    cursor: pointer;
+    transition: background-color 0.27s ease-in-out;
+}
+
+p a {
+    color: #2B3467;
+}
+
+p a:hover {
+    color: #A62349;
+}
+
+section header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    margin-top: -1.5rem;
+    border-color: rgba(0, 0, 0, 0.684);
+}
+
+/* Slider styles */
+.slider {
+    width: 398px;
+    /* max-width: 100vw; */
+    height: 550px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.item {
+    display: flex; /* Centers the content */
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center; /* Vertically centers the image */
+    width: 100%; /* Ensures the container spans full width */
+    height: auto; /* Allows the container height to adjust based on content */
+    overflow: hidden; /* Ensures no content spills outside the container */
+}
+
+.item img {
+    max-width: 100%; /* Ensures the image scales down for smaller containers */
+    height: 554px; /* Maintains the aspect ratio */
+    object-fit: cover; /* Adjusts how the image fits into the container */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
+}
+
+
+
+
+ 
